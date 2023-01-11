@@ -1,7 +1,6 @@
 import { type NextPage } from "next";
 import Head from "next/head";
 import Image from "next/image";
-import Link from "next/link";
 
 const KalimeraPage: NextPage = () => {
   return (
@@ -16,8 +15,19 @@ const KalimeraPage: NextPage = () => {
           <h1 className="text-5xl font-extrabold text-center tracking-tight text-white sm:text-[5rem]">
             Kalimera
           </h1>
-          <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 md:gap-8">
-          
+          <div style={{ display: 'grid'}}>
+              <Image src="/images/kalimera/1000002196.png" alt="kali" width="1000" height="500" />
+              <Image src="/images/kalimera/1000002199.png" alt="kali" width="1000" height="500" />
+              <div style={{ display: 'grid', gridAutoColumns: 'minmax(0, 1fr)', gridAutoFlow: 'column' }}>
+                <Image src="/images/kalimera/1000002197.png" alt="kali" width="1000" height="500" />
+                <Image src="/images/kalimera/1000002198.png" alt="kali" width="1000" height="500" />
+              </div>
+              <div style={{ display: 'grid', gridAutoColumns: 'minmax(0, 1fr)', gridAutoFlow: 'column' }}>
+                <Image src="/images/kalimera/1000002195.png" alt="kali" width="1000" height="500" />
+                <Image src="/images/kalimera/1000002194.png" alt="kali" width="1000" height="500" />
+              </div>
+              <Image src="/images/kalimera/1000002193.png" alt="kali" width="1000" height="500" />
+              <Image src="/images/kalimera/1000002192.png" alt="kali" width="1000" height="500" />
           </div>
         </div>
       </main>

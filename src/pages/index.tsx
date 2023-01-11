@@ -1,7 +1,7 @@
 import { type NextPage } from "next";
 import Head from "next/head";
-import Image from "next/image";
 import Link from "next/link";
+
 
 const Home: NextPage = () => {
   return (
@@ -12,21 +12,20 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className="flex min-h-screen flex-col items-center justify-center bg-gradient-to-b from-[#FF8221] to-[#8E4913]">
-        <div className="container flex flex-col items-center justify-center gap-12 px-4 py-16 ">
-          <nav className="flex justify-between self-stretch">
-            <div />
+        <div className="container flex flex-col items-center justify-center gap-12 px-4 py-16">
+          <h1 className="text-center text-5xl font-extrabold tracking-tight text-white sm:text-[5rem]">
+            Kovalenko (dankaorange)
+          </h1>
+          <p className="text-white text-center max-w-lg">
+            Hi there! I am a UI/UX designer based in Prague. My main goal is to create better experiences through design. I am passionate about learning new technologies and have a personal and professional drive to shape products from a UX viewpoint, with a focus on quality, usability, and simplicity. 
+          </p>
+          <p className="text-white">
             <a
               href="/resume.pdf"
               className="inline-block rounded border-2 border-gray-200 px-6 py-2 text-xs font-medium uppercase leading-tight text-gray-200 transition duration-150 ease-in-out hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0"
             >
               View Resume
             </a>
-          </nav>
-          <h1 className="text-center text-5xl font-extrabold tracking-tight text-white sm:text-[5rem]">
-            Kovalenko (dankaorange)
-          </h1>
-          <p className="text-white">
-            UI/UX designer
           </p>
           <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 md:gap-8">
             <Link href="/work/nftliithos">
@@ -57,3 +56,5 @@ const Home: NextPage = () => {
 };
 
 export default Home;
+
+

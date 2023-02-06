@@ -1,6 +1,6 @@
-import { type NextPage } from "next";
-import Head from "next/head";
-import Link from "next/link";
+import { type NextPage } from "next"
+import Head from "next/head"
+import Link from "next/link"
 
 
 const Home: NextPage = () => {
@@ -28,7 +28,7 @@ const Home: NextPage = () => {
             </a>
           </p>
           <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 md:gap-8">
-            <Link href="/work/nftliithos">
+            {/* <Link href="/work/nftliithos">
               <h3 className="text-2xl font-bold text-white">NFT Liithos →</h3>
               <div className="relative max-w-xs overflow-hidden rounded-xl bg-cover bg-no-repeat">
                 <img
@@ -37,12 +37,12 @@ const Home: NextPage = () => {
                   alt="Louvre"
                 />
               </div>
-            </Link>
+            </Link> */}
             <Link href="/work/kalimera">
               <h3 className="text-2xl font-bold text-white">Kalimera →</h3>
               <div className="relative max-w-xs overflow-hidden rounded-xl bg-cover bg-no-repeat">
                 <img
-                  src="https://mdbcdn.b-cdn.net/img/new/fluid/city/113.webp"
+                  src="/images/kalimera/1000002196.png"
                   className="max-w-xs transition duration-300 ease-in-out hover:scale-110"
                   alt="Louvre"
                 />
@@ -52,9 +52,9 @@ const Home: NextPage = () => {
         </div>
       </main>
     </>
-  );
-};
+  )
+}
 
-export default Home;
+export default Home
 
 

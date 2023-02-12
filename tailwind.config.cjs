@@ -2,7 +2,14 @@
 module.exports = {
   content: ["./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
-    extend: {},
+    extend: {
+      // fontFamily: {
+      //   PPAgrandir: ['PPAgrandir']
+      // }
+    },
+  },
+  future: {
+    hoverOnlyWhenSupported: true,
   },
   plugins: [],
 };

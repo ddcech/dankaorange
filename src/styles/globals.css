@@ -1,3 +1,17 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* @font-face {
+  font-family: "PPAgrandir";
+  src: url('./fonts/PPAgrandir-Variable.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+  
+@font-face {
+  font-family: "PPAgrandir";
+  src: url('./fonts/PPAgrandir-WideLight.woff');
+  font-weight: lighter;
+  font-style: normal;
+} */

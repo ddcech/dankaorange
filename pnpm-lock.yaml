@@ -1,6 +1,7 @@
 lockfileVersion: 5.4
 
 specifiers:
+  '@next/font': ^13.1.6
   '@types/node': ^18.11.18
   '@types/prettier': ^2.7.2
   '@types/react': ^18.0.26
@@ -21,6 +22,7 @@ specifiers:
   zod: ^3.20.2
 
 dependencies:
+  '@next/font': 13.1.6
   next: 13.1.6_biqbaboplfbrettd7655fr4n2y
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
@@ -39,7 +41,7 @@ devDependencies:
   postcss: 8.4.21
   prettier: 2.8.2
   prettier-plugin-tailwindcss: 0.2.1_prettier@2.8.2
-  tailwindcss: 3.2.4_postcss@8.4.21
+  tailwindcss: 3.2.4
   typescript: 4.9.4
 
 packages:
@@ -105,6 +107,10 @@ packages:
     dependencies:
       glob: 7.1.7
     dev: true
+
+  /@next/font/13.1.6:
+    resolution: {integrity: sha512-AITjmeb1RgX1HKMCiA39ztx2mxeAyxl4ljv2UoSBUGAbFFMg8MO7YAvjHCgFhD39hL7YTbFjol04e/BPBH5RzQ==}
+    dev: false
 
   /@next/swc-android-arm-eabi/13.1.6:
     resolution: {integrity: sha512-F3/6Z8LH/pGlPzR1AcjPFxx35mPqjE5xZcf+IL+KgbW9tMkp7CYi1y7qKrEWU7W4AumxX/8OINnDQWLiwLasLQ==}
@@ -2327,12 +2333,10 @@ packages:
       tslib: 2.4.1
     dev: true
 
-  /tailwindcss/3.2.4_postcss@8.4.21:
+  /tailwindcss/3.2.4:
     resolution: {integrity: sha512-AhwtHCKMtR71JgeYDaswmZXhPcW9iuI9Sp2LvZPo9upDZ7231ZJ7eA9RaURbhpXGVlrjX4cFNlB4ieTetEb7hQ==}
     engines: {node: '>=12.13.0'}
     hasBin: true
-    peerDependencies:
-      postcss: ^8.0.9
     dependencies:
       arg: 5.0.2
       chokidar: 3.5.3

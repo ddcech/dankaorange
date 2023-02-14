@@ -24,7 +24,7 @@ const Home: NextPage = () => {
 
         <div className="container flex flex-col gap-12 px-4 py-16 max-w-5xl">
           <div className="section-head">
-            <h1 className="do-title text-left text-5xl font-extralight tracking-tight text-white sm:text-3xl">
+            <h1 className="do-title text-left text-5xl font-extralight tracking-tight text-white sm:text-3xl md:text-4xl lg:text-7xl">
               Kovalenko (dankaorange)
             </h1>
             <p className="max-w-lg text-left text-white font-extralight text-lg">

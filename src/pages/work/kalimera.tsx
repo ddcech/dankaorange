@@ -17,7 +17,7 @@ const KalimeraPage: NextPage = () => {
           <Link href="/" className="">
             <EnterIcon style={{ transform: 'rotate(180deg)' }} />
           </Link>
-          <h1 className="text-5xl font-extrabold text-center tracking-tight text-white sm:text-[5rem]">
+          <h1 className="text-5xl font-normal text-center tracking-tight text-white sm:text-[5rem]">
             Kalimera
           </h1>
           <div style={{ display: 'grid', justifyItems: 'center', maxWidth: 1000 }}>

@@ -13,7 +13,7 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className="flex min-h-screen flex-col items-center justify-center bg-gradient-to-b from-[#FF8221] to-[#FF8221]">
-        <header className="container flex justify-start bg-transparent px-4">
+        <header className="container flex justify-start bg-transparent px-4 max-w-5xl">
           <nav>
             <ul className="flex space-x-4 text-white">
               <li><a href="#work">Work</a></li>
@@ -22,7 +22,7 @@ const Home: NextPage = () => {
           </nav>
         </header>
 
-        <div className="container flex flex-col items-center justify-center gap-12 px-4 py-16">
+        <div className="container flex flex-col gap-12 px-4 py-16 max-w-5xl">
           <div className="section-head">
             <h1 className="do-title text-left text-5xl font-extralight tracking-tight text-white sm:text-3xl">
               Kovalenko (dankaorange)
@@ -45,7 +45,7 @@ const Home: NextPage = () => {
             </p> */}
         </div>
       </main>
-      <section className="container mx-auto flex min-h-screen flex-col justify-center bg-black px-4">
+      <section className="container mx-auto max-w-5xl flex min-h-screen flex-col justify-center bg-black px-4">
         <h2 id="work" />
         <div className="flex flex-cols-1 flex-wrap gap-4 sm:flex-cols-2 md:gap-8 justify-between">
           <Link href="/work/nftliithos" className="do-card-wrap">
@@ -80,7 +80,7 @@ const Home: NextPage = () => {
         </div>
       </section>
 
-      <section className="container mx-auto flex min-h-screen flex-col justify-center bg-black text-white px-4">
+      <section className="container mx-auto flex min-h-screen flex-col justify-center bg-black text-white px-4 max-w-5xl">
         <h2 id="contact" aria-hidden />
         <div className="flex-col justify-around">
           <h2 className="text-4xl font-thin">Contact</h2>

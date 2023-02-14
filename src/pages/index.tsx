@@ -1,7 +1,8 @@
-import { type NextPage } from "next";
-import Head from "next/head";
-import Link from "next/link";
-import { EnterIcon } from "../components/icons/EnterIcon";
+/* eslint-disable @next/next/no-img-element */
+import { type NextPage } from "next"
+import Head from "next/head"
+import Link from "next/link"
+import { EnterIcon } from "../components/icons/EnterIcon"
 
 const Home: NextPage = () => {
   return (
@@ -15,9 +16,8 @@ const Home: NextPage = () => {
         <header className="flex justify-start bg-transparent">
           <nav>
             <ul className="flex space-x-4 text-white">
-              <li><a href="#">Home</a></li>
-              <li><a href="#">About</a></li>
-              <li><a href="#">Contact</a></li>
+              <li><a href="#work">Work</a></li>
+              <li><a href="#contact">Contact</a></li>
             </ul>
           </nav>
         </header>
@@ -44,11 +44,12 @@ const Home: NextPage = () => {
             </p> */}
         </div>
       </main>
-      <section className="flex min-h-screen flex-col items-center justify-center bg-black">
-        <div className="container flex flex-cols-1 flex-wrap gap-4 sm:flex-cols-2 md:gap-8 justify-around">
+      <section className="container mx-auto flex min-h-screen flex-col justify-center bg-black">
+        <h2 id="work" />
+        <div className="flex flex-cols-1 flex-wrap gap-4 sm:flex-cols-2 md:gap-8 justify-between">
           <Link href="/work/nftliithos" className="do-card-wrap">
-            <h3 className="text-2xl font-bold text-white">NFT Liithos →</h3>
-            <div className="do-card relative max-w-md overflow-hidden rounded-xl bg-cover bg-no-repeat">
+            <h3 className="text-2xl text-white my-4">NFT Liithos</h3>
+            <div className="do-card relative max-w-md overflow-hidden bg-cover bg-no-repeat">
               <img
                 src="/images/nft-thumb.png"
                 className="do-card-img max-w-md transition duration-300 ease-in-out hover:scale-110"
@@ -62,8 +63,8 @@ const Home: NextPage = () => {
           </Link>
 
           <Link href="/work/kalimera" className="do-card-wrap">
-            <h3 className="text-2xl font-bold text-white">Kalimera →</h3>
-            <div className="do-card relative max-w-md overflow-hidden rounded-xl bg-cover bg-no-repeat">
+            <h3 className="text-2xl text-white my-4">Kalimera</h3>
+            <div className="do-card relative max-w-md overflow-hidden bg-cover bg-no-repeat">
               <img
                 src="/images/kalimera-thumb.png"
                 className="do-card-img max-w-md transition duration-300 ease-in-out hover:scale-110"
@@ -75,6 +76,15 @@ const Home: NextPage = () => {
               </div>
             </div>
           </Link>
+        </div>
+      </section>
+
+      <section className="container mx-auto flex min-h-screen flex-col justify-center bg-black text-white">
+        <h2 id="contact" aria-hidden />
+        <div className="flex-col justify-around">
+          <h2 className="text-4xl font-thin">Contact</h2>
+          <p className="my-2">Feel free to reach out to me!</p>
+          <a href="https://www.linkedin.com/in/daniella-kovalenko-621678229/" className="underline my-2">Linkedin</a>
         </div>
       </section>
     </>

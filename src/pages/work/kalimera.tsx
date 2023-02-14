@@ -2,6 +2,7 @@ import { type NextPage } from "next"
 import Head from "next/head"
 import Image from "next/image"
 import Link from "next/link"
+import { EnterIcon } from '../../components/icons/EnterIcon'
 
 const KalimeraPage: NextPage = () => {
   return (
@@ -13,8 +14,8 @@ const KalimeraPage: NextPage = () => {
       </Head>
       <main className="flex min-h-screen flex-col items-center justify-center bg-gradient-to-b from-[#000000] to-[#000000]">
         <div className="container flex flex-col items-center justify-center gap-12 px-4 py-16 ">
-          <Link href="/" className="bg-gray-300 hover:bg-gray-400 text-gray-800 font-bold py-2 px-4 rounded">
-            Back
+          <Link href="/" className="">
+            <EnterIcon style={{ transform: 'rotate(180deg)' }} />
           </Link>
           <h1 className="text-5xl font-extrabold text-center tracking-tight text-white sm:text-[5rem]">
             Kalimera

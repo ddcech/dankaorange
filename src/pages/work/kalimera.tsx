@@ -32,7 +32,6 @@ const KalimeraPage: NextPage = () => {
                 <Image src="/images/kalimera/1000002194.png" alt="kali" width="1500" height="500" />
               </div>
               <Image src="/images/kalimera/1000002193.png" alt="kali" width="1500" height="500" />
-              <Image src="/images/kalimera/1000002192.png" alt="kali" width="1500" height="500" />
           </div>
         </div>
       </main>

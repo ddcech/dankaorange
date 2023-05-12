@@ -13,7 +13,7 @@ const NFTLiithosPage: NextPage = () => {
       </Head>
       <main className="flex min-h-screen flex-col items-center justify-center bg-gradient-to-b from-[#FF8221] to-[#FF8221]">
         <div className="container flex flex-col items-center justify-center gap-12 px-4 py-16 text-white">
-          <Link href="/" className="">
+          <Link href="/#work" className="">
             <EnterIcon style={{ transform: 'rotate(180deg)' }} />
           </Link>
           <h1 className="text-5xl font-normal text-center tracking-tight sm:text-[5rem]">
